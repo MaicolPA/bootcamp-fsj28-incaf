@@ -1,0 +1,42 @@
+/* universal */
+* {
+    margin: 0rem;
+    padding: orem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* menu */ 
+#SectionMenu ul {
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.65);
+    position: absolute;
+}
+#SectionMenu ul li {
+    display: inline;
+    list-style: none;
+}
+#SectionMenu ul li a {
+    color: #a05624;
+    font-weight: bold;
+    padding: 3px 0.5em;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+
+/* banner */
+.SectionBanner {
+    width: 100%;
+    background-color: blue;
+}
+.SectionBanner picture {
+    min-width: max-content;
+}
+.Banner {
+    width: 100%;
+}
+
